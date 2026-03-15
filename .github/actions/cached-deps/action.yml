@@ -26,4 +26,4 @@ runs:
       shell: bash
       run: | 
         npm ci
-        ech "::set-output name=cache::'${{inputs.caching}}"
+        echo "::set-output name=cache::'${{inputs.caching}}"
